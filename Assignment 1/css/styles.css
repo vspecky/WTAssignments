@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #17202A;
+}
+
+.nav-field .nav-link {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: azure;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-field {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link:hover {
+    color: #566573;
+}
+
+.center {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.big-head {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    color: azure;
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 azure;
+    transition: 0.3s;
+    background-color: azure;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 azure;
+}
+
+.card-body * {
+    padding: 2px 16px;
+    background-color: #DDDDDD;
+}
+
+.card-title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+}
+
+.contact-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+
+.contact-head {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: transparent;
+}
+
+.form-field {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.form-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    transition: 0.5s;
+    pointer-events: none;
+    background: transparent;
+
+}
+
+
+.form-input:valid ~ .form-label {
+    top: -20%;
+    left: 0;
+    color: teal;
+    font-size: 12px;
+}
+
+.form-submit {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
