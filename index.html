@@ -10,8 +10,10 @@
     <div class="container">
         <h1>Web Technology Assignments</h1>
         <h5>Please view these in Chrome/Brave</h5>
-		<h5>THIS page was made with bootstrap but custom CSS is used in all assignments that required it</h5>
-        <br>
+        <h5>THIS page was made with bootstrap but custom CSS is used in all assignments that required it</h5>
+        <p>Use the following button to clear your Browser's LocalStorage of any Assignment Related data:</p>
+        <button id="clear-storage" class="btn btn-primary"> Clear LocalStorage</button>
+        <br><br>
         <div class="row">
             <div class="col-6">
                 <div class="card">
@@ -32,6 +34,14 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
+    
+    <script>
+        const clearBtn = document.getElementById("clear-storage");
+
+        clearBtn.addEventListener('click', _ => {
+            localStorage.removeItem('wtassignment2');
+        });
+    </script>
 </body>
 </html>
