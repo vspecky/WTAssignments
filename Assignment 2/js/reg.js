@@ -61,7 +61,7 @@ form.addEventListener('submit', e => {
         return;
     };
 
-    const data = localStorage.getItem('wtassignment2')
+    const data = "wtassignment2" in localStorage
                  ? JSON.parse(localStorage.getItem('wtassignment2'))
                  : [];
 
