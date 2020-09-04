@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <script defer src="./js/main.js"></script>
+    <title>WT Assignment 4</title>
+</head>
+<body>
+    <div class="container">
+        <h1>WT Assignment 4</h1>
+        <p>The code for the API can be viewed in the GitHub Repository.</p>
+        <div id="notif" class="alert"></div>
+        <form id="id-form">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-4">
+                        <label for="get-by-id">ID:</label>
+                        <input type="text" class="form-control" id="get-by-id">
+                    </div>
+                </div> 
+            </div>
+            <button type="submit" class="btn btn-primary">Get by ID</button>
+        </form>
+        <br>
+        <form id="range-form">
+            <div class="form-group">
+                <div class="form-row">
+                    <div class="col-4">
+                        <label for="lower-limit">Lower Limit:</label>
+                        <input type="text" id="lower-limit" class="form-control">
+                    </div>
+                    <div class="col-4">
+                        <label for="upper-limit">Upper Limit:</label>
+                        <input type="text" id="upper-limit" class="form-control">
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Get by Price Range</button>
+        </form>
+        <br>
+        <br>
+        <div id="res-table"></div>
+    </div>
+</body>
+</html>
