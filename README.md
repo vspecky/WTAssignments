@@ -7,3 +7,4 @@ The github.io link is [here](https://vspecky.github.io/WTAssignments/)
 2. Create a Dynamic Event Registration website.  
 3. Create a Dynamic restaurant Menu website using JQuery.  
 4. Create a PHP API with a Data Class in the backend and create a frontend that consumes the API.
+5. For the Event Registration in 2), save/fetch the data to/from a database and create a PHP REST API to interact with the database.
