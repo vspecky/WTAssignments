@@ -1,8 +1,8 @@
 <?php
 define("DB_HOST", "localhost");
-define("DB_NAME", "id14769155_wtassdb");
-define("DB_USER", "id14769155_sattarde");
-define("DB_PASS", "Any%Glitchless9913");
+define("DB_NAME", "my_db_name");
+define("DB_USER", "my_db_user");
+define("DB_PASS", "my_password");
 
 define("TAB_ASS5", "wtass5");
 ?>
