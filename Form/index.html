@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <h1>Edit Profile</h1>
+        <br>
+        <div id="notif" class="alert"></div>
+
+        <form action="#" id="prof-form">
+            <div class="card">
+                <div class="card-header">
+                    <h5>General Information</h5>
+                </div>
+                <div class="card-body">
+                    <!--<h4 class="card-title">General Information</h4>-->
+                    <div class="row mt-2">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Name:</strong>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="name" id="name">
+                        </div>
+                    </div>
+
+                    <br>
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Email:</strong>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="email" id="email">
+                        </div>
+                    </div>
+                
+                    <br>
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Contact:</strong>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="contact" id="contact">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <br>
+
+            <div class="card">
+                <div class="card-header">
+                    <h5>About</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Bio:</strong>
+                        </div>
+                        <div class="col">
+                            <textarea name="bio" rows="5" class="form-control" id="bio"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Skills:</strong>
+                        </div>
+                        <div class="col">
+                            <textarea name="skills" rows="5" class="form-control" id="skills"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Achievements:</strong>
+                        </div>
+                        <div class="col">
+                            <textarea name="achs" rows="5" class="form-control" id="achs"></textarea>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row">
+                        <div class="col-2 d-flex flex-row-reverse">
+                            <strong>Portfolio:</strong>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" name="pfl" id="pfl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <input id="sub" type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
